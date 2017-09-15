@@ -21,7 +21,7 @@
 </p>
 
 ## How To Use
-Please build it with Visual Studio or [download]() the Windows binary and use it. There is a possibility that it does not operate normally under Windows 7 or below. It requires [.NET Framework 4.6.1](https://www.microsoft.com/en-Us/download/details.aspx?id=49981) to run.
+Please build it with Visual Studio or [download](https://github.com/okanon/JsonParseViewer/releases) the Windows binary and use it. There is a possibility that it does not operate normally under Windows 7 or below. It requires [.NET Framework 4.6.1](https://www.microsoft.com/en-Us/download/details.aspx?id=49981) to run.
 
 
 Since binary files are integrated with dynamic libraries, binary files can be executed by themselves.
