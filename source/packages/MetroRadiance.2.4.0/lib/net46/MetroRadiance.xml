@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetroRadiance</name>
+    </assembly>
+    <members>
+        <member name="T:MetroRadiance.UI.Accent">
+            <summary>
+            MetroRadiance テーマのアクセントとして使用する色を識別します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Accent.Specified">
+            <summary>
+            アクセント専用の色が指定されている場合、その色を示す識別子を取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Accent.Color">
+            <summary>
+            アクセントとして使用する色が指定されている場合、その色を示す <see cref="P:MetroRadiance.UI.Accent.Color"/> 構造体を取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Accent.SyncToWindows">
+            <summary>
+            Windows の色と同期するかどうかを示す値を取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Accent.Windows">
+            <summary>
+            Windows のテーマ設定に追従するアクセントを取得します。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.UI.Accent.FromColor(System.Windows.Media.Color)">
+            <summary>
+            指定した <see cref="P:MetroRadiance.UI.Accent.Color"/> 構造体を使用して、その色のアクセントを作成します。
+            </summary>
+            <param name="color">アクセントとして使用する色を示す <see cref="P:MetroRadiance.UI.Accent.Color"/> 構造体。</param>
+        </member>
+        <member name="P:MetroRadiance.UI.Accent.__Specified">
+            <summary>
+            シリアル化インフラストラクチャをサポートします。コードから直接使用するためのものではありません。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Accent.__Color">
+            <summary>
+            シリアル化インフラストラクチャをサポートします。コードから直接使用するためのものではありません。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.CaptionButton">
+            <summary>
+            ウィンドウのキャプション部分で使用するために最適化された <see cref="T:System.Windows.Controls.Button"/> コントロールを表します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.CaptionButton.WindowAction">
+            <summary>
+            ボタンに割り当てるウィンドウ操作を取得または設定します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.Int32Rule">
+            <summary>
+            入力された値が有効な <see cref="T:System.Int32"/> 値かどうかを検証します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.Int32Rule.AllowsEmpty">
+            <summary>
+            入力に空文字を許可するかどうかを示す値を取得または設定します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.Int32Rule.Min">
+            <summary>
+            入力可能な最小値を取得または設定します。
+            </summary>
+            <value>
+            入力可能な最小値。最小値がない場合は null。
+            </value>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.Int32Rule.Max">
+            <summary>
+            入力可能な最大値を取得または設定します。
+            </summary>
+            <value>
+            入力可能な最大値。最大値がない場合は null。
+            </value>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.MetroWindow">
+            <summary>
+            Metro スタイル風のウィンドウを表します。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.MetroWindow.systemDpi">
+            <summary>
+            WPF が認識しているシステムの DPI (プライマリ モニターの DPI)。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.MetroWindow.CurrentDpi">
+            <summary>
+            このウィンドウが表示されているモニターの現在の DPI。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.MetroWindow.DpiScaleTransform">
+            <summary>
+            DPI スケーリングを実現する <see cref="T:System.Windows.Media.Transform" /> を取得または設定します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.MetroWindow.IsRestoringWindowPlacement">
+            <summary>
+            ウィンドウの位置とサイズを復元できるようにするかどうかを示す値を取得または設定します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Controls.MetroWindow.WindowSettings">
+            <summary>
+            ウィンドウの位置とサイズを保存または復元する方法を指定するオブジェクトを取得または設定します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.PromptComboBox">
+            <summary>
+            未入力時にプロンプトを表示できる <see cref="T:System.Windows.Controls.ComboBox"/> を表します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.PromptTextBox">
+            <summary>
+            未入力時にプロンプトを表示できる <see cref="T:System.Windows.Controls.TextBox"/> を表します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.ResizeGrip">
+            <summary>
+            ウィンドウをリサイズするためのグリップ コントロールを表します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Controls.WindowAction">
+            <summary>
+            ウィンドウ操作を示す識別子を定義します。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.None">
+            <summary>
+            ウィンドウ操作は実行されません。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.Active">
+            <summary>
+            ウィンドウをアクティブ化します。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.Close">
+            <summary>
+            ウィンドウを閉じます。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.Normalize">
+            <summary>
+            ウィンドウを通常状態にします。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.Maximize">
+            <summary>
+            ウィンドウを最大化します。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.Minimize">
+            <summary>
+            ウィンドウを最小化します。
+            </summary>
+        </member>
+        <member name="F:MetroRadiance.UI.Controls.WindowAction.OpenSystemMenu">
+            <summary>
+            ウィンドウのシステム メニューを開きます。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.Converters.WindowStateToVisibilityConverter">
+            <summary>
+            <see cref="T:System.Windows.WindowState"/> 値が
+            <see cref="F:System.Windows.WindowState.Normal"/> のときに <see cref="F:System.Windows.Visibility.Visible"/>
+            へ、<see cref="F:System.Windows.WindowState.Maximized"/> のときに <see cref="F:System.Windows.Visibility.Collapsed"/>
+            へ変換するコンバーターを定義します。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.UI.Converters.WindowStateToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            <see cref="T:System.Windows.WindowState"/> 値から <see cref="T:System.Windows.Visibility"/> 値へ変換します。
+            </summary>
+            <param name="value">変換元の <see cref="T:System.Windows.WindowState"/> 値。</param>
+            <param name="targetType">この引数は使用されません。</param>
+            <param name="parameter">パラメーター。文字列 "Reverse" を指定すると、変換結果が逆になります。それ以外の値を指定しても使用されません。</param>
+            <param name="culture">この引数は使用されません。</param>
+            <returns><see cref="T:System.Windows.WindowState"/> 値から <see cref="T:System.Windows.Visibility"/> 値への変換結果。</returns>
+        </member>
+        <member name="M:MetroRadiance.UI.Converters.WindowStateToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            この実装は常に <see cref="T:System.NotImplementedException"/> をスローします。
+            </summary>
+            <param name="value">この引数は使用されません。</param>
+            <param name="targetType">この引数は使用されません。</param>
+            <param name="parameter">この引数は使用されません。</param>
+            <param name="culture">この引数は使用されません。</param>
+            <returns>値は返されません。</returns>
+        </member>
+        <member name="T:MetroRadiance.UI.Theme">
+            <summary>
+            MetroRadiance テーマとして使用する色を識別します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Theme.Specified">
+            <summary>
+            テーマ専用の色が指定されている場合、その色を示す識別子を取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Theme.SyncToWindows">
+            <summary>
+            Windows のテーマと同期するかどうかを示す値を取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Theme.Windows">
+            <summary>
+            Windows のテーマ設定に追従するテーマを取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.Theme.__Specified">
+            <summary>
+            シリアル化インフラストラクチャをサポートします。コードから直接使用するためのものではありません。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.UI.ThemeExtensions.ToAccent(System.Windows.Media.Color)">
+            <summary>
+            現在の <see cref="T:System.Windows.Media.Color"/> 構造体から、MetroRadiance の <see cref="T:MetroRadiance.UI.ThemeService"/> で使用する <see cref="T:MetroRadiance.UI.Accent"/> を作成します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.UI.ThemeService">
+            <summary>
+            MetroRadiance テーマ機能を提供します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.ThemeService.Theme">
+            <summary>
+            現在設定されているテーマを取得します。
+            </summary>
+        </member>
+        <member name="P:MetroRadiance.UI.ThemeService.Accent">
+            <summary>
+            現在設定されているアクセントを取得します。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.UI.ThemeService.Register(System.Windows.Application,MetroRadiance.UI.Theme,MetroRadiance.UI.Accent)">
+            <summary>
+            テーマ機能を有効化します。テーマまたはアクセントが変更されたとき、<paramref name="app"/>
+            で指定した WPF アプリケーション内のテーマ関連リソースは自動的に書き換えられます。
+            </summary>
+            <param name="app">テーマ関連リソースを含む WPF アプリケーション。</param>
+            <param name="theme">初期値として使用するテーマ。</param>
+            <param name="accent">初期値として使用するアクセント。</param>
+            <returns><paramref name="app"/> をリソースの書き換え対象から外すときに使用する <see cref="T:System.IDisposable"/> オブジェクト。</returns>
+        </member>
+        <member name="M:MetroRadiance.UI.ThemeService.Register(System.Windows.ResourceDictionary)">
+            <summary>
+            テーマまたはアクセントが変更されたときにリソースの書き換え対象とする <see cref="T:System.Windows.ResourceDictionary"/>
+            を登録します。このメソッドは、登録解除に使用する <see cref="T:System.IDisposable"/> オブジェクトを返します。
+            </summary>
+            <returns><paramref name="rd"/> をリソースの書き換え対象から外すときに使用する <see cref="T:System.IDisposable"/> オブジェクト。</returns>
+        </member>
+        <member name="M:MetroRadiance.UI.ThemeService.CheckThemeResourceUri(System.Uri)">
+            <summary>
+            指定した <see cref="T:System.Uri"/> がテーマのリソースを指す URI かどうかをチェックします。
+            </summary>
+            <returns><paramref name="uri"/> がテーマのリソースを指す URI の場合は true、それ以外の場合は false。</returns>
+        </member>
+        <member name="M:MetroRadiance.UI.ThemeService.CheckAccentResourceUri(System.Uri)">
+            <summary>
+            指定した <see cref="T:System.Uri"/> がアクセント カラーのリソースを指す URI かどうかをチェックします。
+            </summary>
+            <returns><paramref name="uri"/> がアクセント カラーのリソースを指す URI の場合は true、それ以外の場合は false。</returns>
+        </member>
+        <member name="M:MetroRadiance.Utilities.InternalExtensions.Invoke(MetroRadiance.UI.Controls.WindowAction,System.Windows.FrameworkElement)">
+            <summary>
+            ウィンドウ操作を実行します。
+            </summary>
+            <param name="action">実行するウィンドウ操作。</param>
+            <param name="source">操作を実行しようとしている UI 要素。この要素をホストするウィンドウに対し、<paramref name="action"/> 操作が実行されます。</param>
+        </member>
+        <member name="M:MetroRadiance.Utilities.InternalExtensions.Compare(System.String,System.String)">
+            <summary>
+            現在の文字列と、指定した文字列を比較します。大文字と小文字は区別されません。
+            </summary>
+        </member>
+    </members>
+</doc>

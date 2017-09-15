@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetroRadiance.Chrome</name>
+    </assembly>
+    <members>
+        <member name="T:MetroRadiance.Chrome.WindowChrome">
+            <summary>
+            ウィンドウにアタッチされ、四辺にカスタム UI を表示する機能を提供します。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.Chrome.WindowChrome.Attach(System.Windows.Window)">
+            <summary>
+            指定した WPF <see cref="T:System.Windows.Window"/> に、このクローム UI をアタッチします。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.Chrome.WindowChrome.Attach(MetroRadiance.Platform.IChromeOwner)">
+            <summary>
+            指定したウィンドウに、このクローム UI をアタッチします。
+            </summary>
+        </member>
+        <member name="M:MetroRadiance.Chrome.InternalExtensions.SpecifiedOrDefault(System.Double,System.Double)">
+            <summary>
+            現在の値が Auto の場合は <paramref name="default"/> を、それ以外の場合は現在の値を返します。
+            </summary>
+        </member>
+        <member name="T:MetroRadiance.Platform.IChromeOwner">
+            <summary>
+            <see cref="T:MetroRadiance.Chrome.WindowChrome"/> がアタッチ先として使用するための、Win32 ウィンドウの機能を公開します。
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

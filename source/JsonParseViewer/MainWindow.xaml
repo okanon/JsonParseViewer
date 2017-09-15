@@ -1,0 +1,83 @@
+﻿<metro:MetroWindow x:Class="JsonParseViewer.MainWindow"
+				   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				   xmlns:metro="http://schemes.grabacr.net/winfx/2014/controls"
+				   Title="JsonParseViewer"
+				   Width="640"
+				   Height="480"
+				   Background="{DynamicResource ThemeBrushKey}"
+				   Foreground="{DynamicResource ActiveForegroundBrushKey}"
+				   IsRestoringWindowPlacement="True"
+				   UseLayoutRounding="True"
+				   FontFamily="Courier New"
+				   MinWidth="640"
+				   MinHeight="480">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="24*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid metro:MetroWindow.IsCaptionBar="True" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="JsonParseViewer"
+					   FontFamily="Courier New
+"
+					   FontSize="18"
+					   Margin="10,4"
+					   Opacity="0.85" />
+            <metro:SystemButtons Grid.Column="1"
+								 VerticalAlignment="Top" />
+        </Grid>
+
+        <DockPanel Grid.Row="1"
+				   Margin="8"
+				   TextOptions.TextFormattingMode="Display" Grid.ColumnSpan="2">
+            <StackPanel DockPanel.Dock="Bottom"
+					HorizontalAlignment="Right">
+                <Button
+					Content="Parse"
+					Padding="20,6"
+					HorizontalAlignment="Right"
+					Click="Parse" />
+            </StackPanel>
+
+            <StackPanel DockPanel.Dock="Bottom"
+						HorizontalAlignment="Right"
+						Margin="0,0,80,-29">
+                <Button
+					Content="Save"
+					Padding="20,6"
+					HorizontalAlignment="Right"
+					Click="Save" />
+            </StackPanel>
+
+            <StackPanel DockPanel.Dock="Bottom"
+						HorizontalAlignment="Right"
+						Margin="0,0,153,-29">
+                <Button
+					Content="Reset"
+					Padding="20,6"
+					HorizontalAlignment="Right"
+					Click="Reset" />
+            </StackPanel>
+
+            <metro:PromptTextBox x:Name="TextBox"
+								 Prompt="ここに json をコピペして Parse ボタンを押してね♪"
+								 AcceptsReturn="True"
+								 TextWrapping="Wrap"
+								 FontFamily="Courier New"
+								 VerticalScrollBarVisibility="Visible"
+								 VerticalContentAlignment="Top"
+								 Margin="0,8" />
+        </DockPanel>
+    </Grid>
+</metro:MetroWindow>
