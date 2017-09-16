@@ -31,7 +31,7 @@ Since binary files are integrated with dynamic libraries, binary files can be ex
 Please copy [MetroRadiance](https://github.com/okanon/MetroRadiance) to __JsonParseViewer/source/MetroRadiance__ so that it has the same directory structure and build it. 
 Otherwise MetroRadiance.dll will not have errors at build time.
 
-__Because we are using the `RichTextBox` feature, please use [MetroRadiance](https://github.com/okanon/MetroRadiance) that I forked instead of [Mr. Grabacr07](https://github.com/Grabacr07) MetroRadiance__
+__Because we are using the `RichTextBox` feature, please use [MetroRadiance](https://github.com/okanon/MetroRadiance) that I forked instead of [Mr. Grabacr07](https://github.com/Grabacr07) MetroRadiance.__
 
 ## License
 [![MIT](https://upload.wikimedia.org/wikipedia/commons/f/f8/License_icon-mit-88x31-2.svg)](https://opensource.org/licenses/MIT)
